@@ -1,6 +1,6 @@
-🤖 # Sentiment-Based Email Responder AI Agent
+# Sentiment-Based Email Responder AI Agent 🤖
 An intelligent AI agent that automatically analyzes email sentiment and generates appropriate responses for customer service automation.
-🎯 # Problem Statement
+# Problem Statement 🎯 
 Customer service teams receive hundreds of emails daily with varying emotional tones. Manual responses are time-consuming and may lack consistency. This AI agent solves this by:
 
 Automatically detecting email sentiment (positive, negative, neutral)
@@ -8,7 +8,7 @@ Generating contextually appropriate responses
 Maintaining professional communication standards
 Reducing response time from hours to seconds
 
-🚀# Features
+# Features 🚀
 
 Intelligent Sentiment Analysis: Uses NLP to classify email emotions
 Automated Response Generation: Creates personalized, professional replies
@@ -17,7 +17,7 @@ Scalable: Process thousands of emails per hour
 Easy Integration: Simple Python API for existing systems
 Model Persistence: Save and load trained models
 
-🛠️ # Technical Stack
+ # Technical Stack 🛠️
 
 Python 3.8+
 Machine Learning: scikit-learn, Multinomial Naive Bayes
@@ -25,7 +25,7 @@ NLP: NLTK, TextBlob, TF-IDF Vectorization
 Data Processing: pandas, numpy
 Model Storage: joblib
 
-📦# Installation
+# Installation 📦
 
 Clone the repository:
 
@@ -61,10 +61,10 @@ Response Time: <1 second per email
 Memory Usage: <100MB
 Throughput: 1000+ emails per hour
 
-🎬# Demo Video
+# Demo Video 🎬
 Watch the  demo showcasing the agent's functionality:
 [Demo Video Link] 
-📋 Example Outputs
+# Example Outputs 📋 
 Positive Email Input:
 "Thank you so much for the excellent service! Very satisfied with the product."
 AI Response:
@@ -112,7 +112,7 @@ agent.load_model('my_model.pkl')
 60% cost savings in customer service operations
 24/7 availability for customer communications
 
-🔮 Future Enhancements
+# Future Enhancements 🔮
 
  Multi-language support
  Advanced emotion detection
@@ -120,17 +120,7 @@ agent.load_model('my_model.pkl')
  Real-time dashboard for monitoring
  Continuous learning from feedback
 
-📁# Project Structure
-sentiment-email-responder/
-│
-├── sentiment_email_responder.py    # Main AI agent code
-├── demo_script.py                  # Demo for video recording
-├── requirements.txt                # Python dependencies
-├── README.md                      # Project documentation
-├── report.pdf                     # Detailed project report
-└── models/                        # Saved model files
-    └── sentiment_email_model.pkl
-🤝# Contributing
+# Contributing 🤝
 
 Fork the repository
 Create a feature branch (git checkout -b feature/new-feature)
